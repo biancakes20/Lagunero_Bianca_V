@@ -3,18 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style3.css">
 </head>
-
 <body>
-
     <div class="grid-container">
         <div class="navbar">
             <a href="#" id="logo">MY PORTFOLIO</a>
-            <ul id="nav">
-                <li><a href="#">HOME</a></li>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a href="contact.html">CONTACT US</a></li>
             </ul>
@@ -22,37 +20,30 @@
         </div>
         <div id="responsive-nav">
             <ul id="nav">
-                <li><a href="#">HOME</a></li>
+                <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a href="contact.html">CONTACT US</a></li>
             </ul>
         </div>
-
         <div class="image-section">
             <img src="bianca.jpg" alt="Bianca V. Lagunero">
         </div>
-
         <div class="text-section">
-            <ul>
-                <li>Hello! I'm <b>Bianca V. Lagunero</b></li>
-
-                <li>BSINT 3rd Year Student</li>
-            </ul>
-            
-        </div>
-        <div class="quote-section">
-            <p class="quote">"Don't let fear stop you from growing"</p>
-        </div>
-
-        <div class="footer"></div>
-    </div>
-    <script>
+  <p class="intro">
+    Reach Me Here: 
+  </p>
+  <ul>
+    <li>Facebook: <a href="https://www.facebook.com/lagunero.bianca.vicente" target="_blank">Bianca V. Lagunero</a></li>
+    <li>Gmail: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vlagunerobianca19@gmail.com" target="_blank">vlagunerobianca19@gmail.com</a></li>
+    <li>Contact No: 0977 362 3787</li>
+  </ul>
+</div>
+<div class="footer"></div>
+  </div>
+<script>
         const menu = document.getElementById('menu');
         const nav = document.getElementById('responsive-nav');
-
         menu.addEventListener('click', () => {
             nav.classList.toggle('show');
         });
     </script>
-</body>
-</html>
